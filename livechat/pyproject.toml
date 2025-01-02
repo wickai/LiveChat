@@ -1,0 +1,14 @@
+[project]
+name = "livechat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "pre-commit>=4.0.1",
+]
+
+[tool.ruff]
+# Allow lines to be as long as 120.
+line-length = 120
